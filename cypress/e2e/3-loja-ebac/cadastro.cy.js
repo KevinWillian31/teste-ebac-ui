@@ -27,7 +27,7 @@ describe('Funcionalidade: Cadastro', () => {
 
     });
 
-    it.only('Funcionalidade:Modificação detalhes da conta com sucesso - usando variáveis', () => {
+    it('Funcionalidade:Modificação detalhes da conta com sucesso - usando variáveis', () => {
 
     var email = faker.internet.email()
     var nome = faker.person.firstName()
