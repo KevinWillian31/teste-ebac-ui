@@ -3,7 +3,7 @@ import { faker, Faker } from "@faker-js/faker";
 
 describe('Funcionalidade:Adicionar produtos no carrinho', () => {
   beforeEach(() => {
-    cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+    cy.visit('minha-conta')
   });
 
     it('Adicionar produtos no carrinho - com sucesso', () => {
